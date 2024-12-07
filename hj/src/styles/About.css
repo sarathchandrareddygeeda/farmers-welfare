@@ -1,0 +1,47 @@
+.about-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    min-height: 90vh;
+    font-family: 'Poppins';
+}
+.about-sec-1{
+    padding: 2rem 1rem;
+    background-color: #F6F6F6;
+    margin: 2rem 0;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.about-sec-1 p{
+    width: 80%;
+}
+
+.about-sec-2{
+    padding: 2rem 1rem;
+    margin: 2rem;
+    font-size: larger;
+    text-align: left;
+}
+
+.about-sec-2 p{
+    padding: 1rem 0rem;
+}
+
+.about-sec-rem{
+    
+    padding: 2rem 1rem;
+    background-color: #F6F6F6;
+    margin: 2rem 0;
+    font-size: larger;
+    width: 100%;
+}
+
+
+.special-about-head{
+    color: #1E8E3E;
+}

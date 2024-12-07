@@ -13,6 +13,8 @@ import { Provider } from "react-redux";
 import { store } from "./redux/store";
 import LedgerTable from "./components/LedgerTable";
 import SuggestionForm from "./components/SuggestionForm";
+import About from "./components/About";
+import Services from "./components/Services";
 
 function App() {
   return (
@@ -28,6 +30,8 @@ function App() {
             <Route path="/add-report" element={<LedgerForm />} />
             <Route path="/details" element={<LedgerTable />} />
             <Route path="/suggestion-form/:id" element={<SuggestionForm />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/services" element={<Services />} />
           </Routes>
         </div>
       </UserProvider>
